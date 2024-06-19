@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;  
+  margin: 0%;
+  color: #FFFFFF;
+
+}
+.Container
+{   margin: auto;
+    width: 80vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, rgb(84, 84, 228) , rgb(72, 219, 212));
+    border-radius: 1rem;
+
+}   
+.Country
+{
+    height: 4.0rem;
+    width:25rem;
+    background-image: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 5%;
+}
+.Country input
+{
+    height: 2.0rem;
+    width: 18rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgba(255,255,255,.3);
+    text-align: center;
+
+}
+button
+{
+    height: 2.0rem;
+    width: 6rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid gray;
+
+}
+
+.Weather
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.Weather-details
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2.0rem;
+    margin-top: 20%;
+
+}
+
